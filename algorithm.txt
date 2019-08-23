@@ -1,0 +1,36 @@
+Harmanjot Singh
+Professor Andrew Harris
+Computing II
+31 August 2018
+
+				Bubble Sort Algorithm
+
+•Goals - The main goal of this Bubble Sort program is to take an unsorted list of elements and sort them from ascending to descending order and finally print it to the console. 
+
+•Input - The program accepts a collection of half or completely unsorted integers in an array data type. 
+
+•Output - The end output of this C program is a sorted list of integers in an array. However, the programs also print the current status of the array after each swap. 
+
+•Steps - Sort function:
+Declare two int data type variables called i and j.
+Repeat this outer loop until the variable i is less than the number of elements in the given array and increment the value of i each time loop runs.
+	Repeat this inner loop for comparison in each pass and also increment its value.
+	If the first index of the array bigger than the next index.
+	Call the swap function.
+	Print the current status of the array.
+
+Swap function:
+Create a temporary variable to perform the swapping between bigger and smaller integers. In this case, use pointers (*) to get the actual value of some specific variable address (&).
+int temp variable = *a
+*a = *b
+*b = *temp
+
+PrintValues function:
+Print the completely sorted array using a loop for proper iteration. This function is accessing the sorted data with the help of sort and swap functions.
+
+Main function:
+In order for all functions to work.
+Call the swap function.
+Also, call the printValues function. 
+
+
