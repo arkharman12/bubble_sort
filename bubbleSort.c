@@ -1,6 +1,6 @@
 //bubble.c
-//famous bubble sort
-//implement the swap algorithm with pointers
+//Famous bubble sort
+//Implement the swap algorithm with pointers
 
 #include <stdio.h>
 #define MAX 9
